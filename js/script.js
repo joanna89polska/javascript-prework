@@ -40,6 +40,12 @@ printMessage('Mój ruch to: ' + computerMove);*/
 
   let playerMove = getMoveName(randomNumber);
 
+  let playRock = 'kamień';
+
+  let playPaper = 'papier';
+
+  let playScissors = 'nożyce'
+
 /*if (playerInput == '1') {
   playerMove = 'kamień';
 }
