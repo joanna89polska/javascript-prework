@@ -90,7 +90,7 @@ displayResult(computerMove,playerInput);
 
 }
 
-playGame(1);
+playGame(3);
 
 let playRock = document.getElementById("play-rock");
 
