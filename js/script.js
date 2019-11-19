@@ -1,5 +1,7 @@
 function playGame (playerInput){
 
+  clearMessages();
+
   function clearMessages (){}
 
   let randomNumber = Math.floor(Math.random() * 3 + 1);
@@ -90,7 +92,7 @@ displayResult(computerMove,playerInput);
 
 }
 
-playGame(3);
+
 
 let playRock = document.getElementById("play-rock");
 
